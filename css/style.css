@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+main {
+    height: calc(100% - 90px);
+    display: flex;
+    width: calc(120% - 150px);
+    z-index: -1;
+    background-color: rgb(30, 30, 30);
+    background-attachment: fixed;
+}
+
+nav {
+    height: calc(100% - 90px);
+    width: 200px;
+    background-color:rgba(0, 0, 0, 1);
+    color: gainsboro; 
+    position: fixed;
+}
+
+.main-content-box {
+    width: 100%;
+    transform: translateX(110px);
+}
+
+section {
+    width:100%;
+    background-color:#141922;
+    color: white;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+
+.modal-banner {
+    height: 90px;
+    width: 100%;
+    background-color: #080B12;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color:#282828;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+
+
+.contenuto-navbar1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 10px;
+    overflow-x: scroll;
+    
+}
+
+.contenitore-profilo-nav {
+    margin-top: 100%;
+    position: absolute;
+    bottom: 65px;
+    left: 5px;
+}
+
+.nav-svg {
+    height: 2rem;
+    width: 10%;
+
+}
+
+#logo-svg {
+    height:3rem ;
+    width: 100%;
+    align-content: center;
+
+}
+
+.icone-nav {
+    font-size: 50px;
+}
+
+#img-footer {
+   width: 2rem;
+   height: 2rem;
+}
+
+.icone-footer {
+    font-size: 1rem;
+}
+
+#player-commands {
+    margin: 0 auto;
+
+}
+
+#player-bar {
+    background-color: black;
+    height: 2px;
+    width: 70%;
+}
+
+.btn {
+    height:20px ;
+    
+}
+
+.no-wrapped {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.library-cards {
+    width: 200px;
+    padding: 10px;
+}
+
+.card-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.positioned-bar {
+    z-index: 15;
+}
+
+.little-side-bar {
+    height: 100%;
+    width: 40px;
+    position: fixed;
+}
+
+.content-playlist {
+    color: rgb(86, 86, 86);
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.playlist-color {
+    color: rgb(86, 86, 86);
+    font-size: 0.9rem;
+}
