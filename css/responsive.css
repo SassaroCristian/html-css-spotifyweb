@@ -16,6 +16,7 @@
 
     .library-cards {
         max-width: 20vw;
+        margin-right: 10px;
     }
 }
 
@@ -26,9 +27,13 @@
     }
 
     .library-cards {
-        max-width: 40vw;
+        min-width: 35vw;
     }
 
+    .round-container {
+        min-width: 30vw;
+        min-height: 30vw;
+    }
 
 }
 

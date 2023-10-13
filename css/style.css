@@ -2,6 +2,8 @@ body {
     display: flex;
     overflow-x: hidden;
     overflow-y: scroll;
+    height: 100%;
+    background-color:#141922;
 }
 
 
@@ -62,7 +64,7 @@ footer {
     width: 100%;
     height: 100%;
     position: relative;
-    margin-left: 10px;
+    margin-left: 16px;
     overflow-x: scroll;
     
 }
@@ -70,20 +72,19 @@ footer {
 .contenitore-profilo-nav {
     margin-top: 100%;
     position: absolute;
-    bottom: 65px;
+    bottom: 95px;
     left: 5px;
 }
 
 .nav-svg {
     height: 2rem;
-    width: 10%;
-
+    width: 15%;
+    margin-right:5px;
 }
 
 #logo-svg {
-    height:3rem ;
-    width: 100%;
-    align-content: center;
+    height:2.5rem ;
+    margin-left: 16px;
 
 }
 
@@ -152,4 +153,30 @@ footer {
 .playlist-color {
     color: rgb(86, 86, 86);
     font-size: 0.9rem;
+    font-weight:800;
+}
+
+
+.round-container {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+}
+
+.round-img-1 {
+    background-image: url('../img/youg.jpeg');
+}
+
+.round-img-2 {
+    background-image: url('../img/einaudi.jpeg');
+}
+
+.round-container-profile {
+    background-color: rgb(86, 86, 86);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/profile.svg');
+    background-size: 30px;
 }
