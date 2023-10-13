@@ -1,14 +1,15 @@
-@media screen and  (max-width:1430px) {
+@media screen and  (max-width:1445px) {
     .library-cards {
-        max-width: 14.5vw;
+        max-width: 14vw;
     }
 
     section {
         height: 100%;
+        
     }
 }
 
-@media screen and  (max-width:1100px) {
+@media screen and  (max-width:1410px) {
     .card-wrap {
         display: flex;
         flex-wrap: wrap;
@@ -20,7 +21,7 @@
     }
 }
 
-@media screen and  (max-width:900px) {
+@media screen and  (max-width:1070px) {
     .no-wrapped {
         display: flex;
         flex-wrap: wrap;
@@ -37,7 +38,7 @@
 
 }
 
-@media screen and  (max-width:423px) {
+@media screen and  (max-width:840px) {
     nav {
         opacity: 0;
         width: 40px;
@@ -75,6 +76,14 @@
     }
 
     .card-wrap {
+        margin-left: 30px;
+    }
+
+    .h1-responsive {
+        margin-left: 30px;
+    }
+
+    .p-responsive{
         margin-left: 30px;
     }
 }

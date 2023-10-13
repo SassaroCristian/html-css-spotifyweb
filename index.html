@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="./css/debug.css">
+    <link rel="stylesheet" href="./css/components.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,50 +25,72 @@
     <div class="positioned-bar">
 
         <nav>
-            <div>
+            <div class="mt-16 mb-16">
                 <img id="logo-svg" src="./img/logo.svg" alt="">
             </div>
             <div class="contenuto-navbar1">
                 <div class="d-flex w-100 ">
                     <img id="" class="d-flex nav-svg" src="./img/home.svg" alt="">
-                    <p class="d-flex flex-align-center"> Home</p>
+                    <p class="d-flex flex-align-center playlist-color"> Home</p>
                 </div>
     
                 <div class="d-flex w-100 py-10">
                     <img id="" class="d-flex nav-svg" src="./img/search.svg" alt="">
-                    <p class="d-flex flex-align-center"> cerca</p>
+                    <p class="d-flex flex-align-center playlist-color">Cerca</p>
                 </div>
     
                 <div class="d-flex w-100 pb-10">
                     <img id="" class="d-flex nav-svg" src="./img/libreria.svg" alt="">
-                    <p class="d-flex flex-align-center"> la tua libreria</p>
+                    <p class="d-flex flex-align-center playlist-color"> La tua libreria</p>
                 </div>
     
-                <h3 class="mb-10">playlist</h3>
+                <h3 class="mb-10">Playlist</h3>
     
                 <div class="d-flex w-100 mb-10 playlist-color">
                     <i class="fa-2x icone-nav fas far fa-plus-square"></i>
-                    <p class="d-flex flex-align-center ml-10"> crea playlist</p>
+                    <p class="d-flex flex-align-center ml-10"> Crea Playlist</p>
                 </div>
     
-                <p class="mb-10 content-playlist">Nome Playlist</p>
-    
-                <p class="mb-10 content-playlist">Nome Playlist</p>
-    
-                <p class="mb-10 content-playlist">Nome Playlist</p>
-    
-                <p class="mb-10 content-playlist">Nome Playlist</p>
-    
-                <p class="mb-10 content-playlist">Nome Playlist</p>
-    
-                <p class="mb-10 content-playlist">Nome Playlist</p>
-    
-                <p class="content-playlist">Nome Playlist</p>
+                <div class="playlist-scroll">
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
 
-                <div class="contenitore-profilo-nav">
-                    <div class="mt-32 content-playlist">installa app</div>
-                    <hr class="w-70 mb-10">
-                    <div>profile</div>
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="mb-10 content-playlist">Nome Playlist</p>
+        
+                    <p class="content-playlist">Nome Playlist</p>
+                </div>
+
+                <div class="contenitore-profilo-nav w-100">
+                    <div class="mt-32 mb-10 content-playlist">
+                        <i class="fas far fa-arrow-alt-circle-down"></i>
+                        Installa app
+                    </div>
+                    <hr class=" w-80 mb-10">
+                    <div class="d-flex flex-align-center">
+                        <div class="round-container-profile"></div>
+                        <h4 class="ml-10">John Doe</h4>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -79,23 +102,23 @@
     </div>
     
     <div class="modal-banner d-flex flex-justify-around flex-justify-end">
-        <button class="d-flex btn">esegui l'upgrade</button>
+        <button class="d-flex banner-button">ESEGUI L'UGRADE</button>
     </div>
 
     <main class="">
         <div class="main-content-box">
             <section class="d-flex flex-column">
-                <div class="d-flex flex-justify-around w-100 flex-wrap">
-                    <p>IN EVIDENZA</p>
-                    <p>PODCAST</p>
-                    <p>CLASSIFICHE</p>
-                    <p>GENERI E MOOD</p>
-                    <p>NUOVE USCITE</p>
-                    <p>SCOPRI</p>
+                <div class="d-flex flex-justify-center w-50 flex-wrap ml-16 mt-32 mb-32">
+                    <p class="mr-16">IN EVIDENZA</p>
+                    <p class="mr-16">PODCAST</p>
+                    <p class="mr-16">CLASSIFICHE</p>
+                    <p class="mr-16">GENERI E MOOD</p>
+                    <p class="mr-16">NUOVE USCITE</p>
+                    <p class="ml-16">SCOPRI</p>
                 </div>
                 
 
-                <h1 class="pl-16">Recently played</h1>
+                <h1 class="h1-responsive pl-16 mb-16">Recently played</h1>
                 <div class="card-wrap">
                 
                     <!-- First container -->
@@ -152,7 +175,8 @@
                     </div>    
                 </div>
 
-                <h1 class="pl-16">Recently played</h1>
+                <h1 class="h1-responsive pl-16 mt-32 mb-16">Creato per te</h1>
+                <p class="p-responsive pl-16 mb-16">Più ascolti, più saranno accurati saranno i suggerimenti.</p>
                 <div class="card-wrap">
                 
                     <!-- First container -->
@@ -161,14 +185,14 @@
                 
                             <!-- First box -->
                             <div class=" d-flex flex-column library-cards pl-16 flex-justify-center text-center">
-                                <img src="./img/metal_lifting.jpg" alt="">
+                                <img src="./img/radar.jpeg" alt="">
                                 <p class="">heavy metal</p>
                                 <p>subtitle</p>
                             </div>
                 
                             <!-- Second box -->
                             <div class="d-flex flex-column library-cards pl-16 flex-justify-center text-center ">
-                                <img src="./img/metal_lifting.jpg" alt="">
+                                <img src="./img/mixdaily.jpeg" alt="">
                                 <p class="">heavy metal</p>
                                 <p>subtitle</p>
                             </div>
@@ -177,7 +201,8 @@
                     </div>
                 </div>
 
-                <h1 class="pl-16">Recently played</h1>
+                <h1 class="h1-responsive pl-16 mt-32 mb-16">Artisti più popolari</h1>
+                <p class="p-responsive pl-16 mb-16">Più ascolti, più saranno accurati saranno i suggerimenti.</p>
                 <div class="card-wrap">
                 
                     <!-- First container -->
@@ -186,14 +211,14 @@
                 
                             <!-- First box -->
                             <div class=" d-flex flex-column library-cards pl-16 flex-justify-center text-center">
-                                <img src="./img/metal_lifting.jpg" alt="">
+                                <div class="round-container round-img-1"></div>
                                 <p class="">heavy metal</p>
                                 <p>subtitle</p>
                             </div>
                 
                             <!-- Second box -->
-                            <div class="d-flex flex-column library-cards pl-16 flex-justify-center text-center ">
-                                <img src="./img/metal_lifting.jpg" alt="">
+                            <div class="d-flex flex-column library-cards pl-16 flex-justify-center text-center">
+                                <div class="round-container round-img-2"></div>
                                 <p class="">heavy metal</p>
                                 <p>subtitle</p>
                             </div>
@@ -205,21 +230,21 @@
         </div>
 
     </main>
-    <footer class="d-flex flex-justify-around flex-align-center">
-        <div class="w-20 dashed d-flex">
-            <div class="w-50 d-flex">
+    <footer class="d-flex flex-align-center">
+        <div class="ml-16 dashed d-flex">
+            <div class="box-brano d-flex">
                 <img id="img-footer" class="" src="./img/sinister.jpeg" alt="">
-                <div>
+                <div class="pl-16 d-flex flex-column flex-justify-center">
                     <p>sinister</p>
                     <p>brano nome</p>
                 </div>
             </div>
-            <div class="w-20 d-flex flex-column flex-row">
-                <i class="fas fa-heart icone-footer"></i>
+            <div class="d-flex flex-align-center">
+                <i class="fas fa-heart icone-footer pr-16"></i>
                 <i class="fas far fa-folder icone-footer"></i>
             </div>
         </div>
-        <div class="w-50 dashed d-flex flex-column">
+        <div class="w-100 dashed d-flex flex-column ml-64 mr-64">
             <div id="player-commands" class="w-33 d-flex flex-justify-around dashed">
                 <i class="fas fas fa-random"></i>
                 <i class="fas fas fa-step-backward"></i>
@@ -233,7 +258,7 @@
                 <p class="d-flex">4:35</p>
             </div>
         </div>
-        <div class="w-20 dashed">
+        <div class="box-comandi-footer dashed">
             <i class="fas fas fa-list"></i>
             <i class="fas fas fa-tv"></i>
             <i class="fas fas fa-volume-up"></i>
