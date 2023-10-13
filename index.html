@@ -231,7 +231,7 @@
 
     </main>
     <footer class="d-flex flex-align-center">
-        <div class="ml-16 dashed d-flex">
+        <div class="ml-16 d-flex">
             <div class="box-brano d-flex">
                 <img id="img-footer" class="" src="./img/sinister.jpeg" alt="">
                 <div class="pl-16 d-flex flex-column flex-justify-center">
@@ -244,25 +244,29 @@
                 <i class="fas far fa-folder icone-footer"></i>
             </div>
         </div>
-        <div class="w-100 dashed d-flex flex-column ml-64 mr-64">
-            <div id="player-commands" class="w-33 d-flex flex-justify-around dashed">
+        <div class="w-100 d-flex flex-column ml-64 mr-64">
+            <div id="player-commands" class="w-100 d-flex flex-justify-around pb-10">
                 <i class="fas fas fa-random"></i>
                 <i class="fas fas fa-step-backward"></i>
                 <i class="fas fas far fa-play-circle"></i>
                 <i class="fas fas fas fa-step-forward"></i>
                 <i class="fas fas fa-redo-alt"></i>
             </div>
-            <div class="w-100 dashed flex-row">
+            <div class="w-100 flex-row d-flex flex-justify-center flex-align-center">
                 <p class="d-flex">0:25</p>
-                <div id="player-bar" class="d-flex"></div>
+                <div class="mr-16 ml-16 player-bar-big d-flex ">
+                    <div class="player-bar-small d-flex flex-justify-center"></div>
+                </div>
                 <p class="d-flex">4:35</p>
             </div>
         </div>
-        <div class="box-comandi-footer dashed">
+        <div class="box-comandi-footer d-flex flex-align-center">
             <i class="fas fas fa-list"></i>
-            <i class="fas fas fa-tv"></i>
+            <i class="mr-16 ml-16 fas fas fa-tv"></i>
             <i class="fas fas fa-volume-up"></i>
-            <div></div>
+            <div class="ml-10 player-bar-big">
+                <div class="player-bar-small"></div>
+            </div>
         </div>
     </footer>
 </body>
