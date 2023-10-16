@@ -12,7 +12,7 @@ main {
     height: calc(100% - 90px);
     display: flex;
     width: calc(120% - 150px);
-    z-index: -1;
+    z-index: 1;
     background-color: rgb(30, 30, 30);
     background-attachment: fixed;
 }
@@ -181,6 +181,18 @@ footer {
     font-weight:800;
 }
 
+.main-text-size-color-big {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: white;
+}
+
+.main-text-size-color-small {
+    font-size: 0.7rem;
+    color: rgb(107, 107, 107);
+    font-weight: 700;
+}
+
 
 .round-container {
     border-radius: 50%;
@@ -204,4 +216,21 @@ footer {
     height: 30px;
     background-image: url('../img/profile.svg');
     background-size: 30px;
+}
+
+.play-icon-main {
+    top: 85px;
+    left: 86px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.play-icon-main:hover {
+    top: 85px;
+    left: 86px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-main {
+    border-bottom: 1px solid green;
+
 }
